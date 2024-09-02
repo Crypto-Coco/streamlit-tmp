@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "defineAI"
+version = "0.1.0"
+description = ""
+authors = ["daichi1207 <daichiyashima@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+langchain = "^0.2.15"
+streamlit = "^1.38.0"
+python-dotenv = "^1.0.1"
+docx2txt = "^0.8"
+pdfminer-six = "^20221105"
+pymupdf = "^1.16.14"
+fitz = "^0.0.1.dev2"
+chromadb = "^0.5.5"
+langchain-community = "^0.2.15"
+pypdf = "^4.3.1"
+langchain-openai = "^0.1.23"
+langchain-anthropic = "^0.1.23"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
